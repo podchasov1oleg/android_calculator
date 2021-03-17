@@ -48,19 +48,13 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/button_sign_switch"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:text="@string/_sign_switch"
-            android:textSize="@dimen/button_text_size" />
-
-        <Button
             android:id="@+id/button_clear_all"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/button_margin"
+            android:layout_column="1"
             android:text="@string/_clear_all"
+            android:textStyle="bold"
             android:textSize="@dimen/button_text_size" />
 
         <Button
@@ -69,6 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/button_margin"
             android:text="@string/_clear_operand"
+            android:textStyle="bold"
             android:textSize="@dimen/button_text_size" />
 
         <Button
@@ -77,6 +72,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/button_margin"
             android:text="@string/_division"
+            android:textStyle="bold"
             android:textSize="@dimen/button_text_size" />
 
         <Button
@@ -85,6 +81,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/button_margin"
             android:text="@string/_7"
+            android:textStyle="bold"
             android:textSize="@dimen/button_text_size" />
 
         <Button
@@ -93,6 +90,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/button_margin"
             android:text="@string/_8"
+            android:textStyle="bold"
             android:textSize="@dimen/button_text_size" />
 
         <Button
@@ -101,6 +99,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/button_margin"
             android:text="@string/_9"
+            android:textStyle="bold"
             android:textSize="@dimen/button_text_size" />
 
         <Button
@@ -109,6 +108,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/button_margin"
             android:text="@string/_multiply"
+            android:textStyle="bold"
             android:textSize="@dimen/button_text_size" />
 
         <Button
@@ -117,6 +117,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/button_margin"
             android:text="@string/_4"
+            android:textStyle="bold"
             android:textSize="@dimen/button_text_size" />
 
         <Button
@@ -125,6 +126,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/button_margin"
             android:text="@string/_5"
+            android:textStyle="bold"
             android:textSize="@dimen/button_text_size" />
 
         <Button
@@ -133,14 +135,16 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/button_margin"
             android:text="@string/_6"
+            android:textStyle="bold"
             android:textSize="@dimen/button_text_size" />
 
         <Button
-            android:id="@+id/button_decrement"
+            android:id="@+id/button_substract"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/button_margin"
             android:text="@string/_decrement"
+            android:textStyle="bold"
             android:textSize="@dimen/button_text_size" />
 
         <Button
@@ -149,6 +153,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/button_margin"
             android:text="@string/_1"
+            android:textStyle="bold"
             android:textSize="@dimen/button_text_size" />
 
         <Button
@@ -157,6 +162,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/button_margin"
             android:text="@string/_2"
+            android:textStyle="bold"
             android:textSize="@dimen/button_text_size" />
 
         <Button
@@ -165,14 +171,16 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/button_margin"
             android:text="@string/_3"
+            android:textStyle="bold"
             android:textSize="@dimen/button_text_size" />
 
         <Button
-            android:id="@+id/button_increment"
+            android:id="@+id/button_add"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/button_margin"
             android:text="@string/_increment"
+            android:textStyle="bold"
             android:textSize="@dimen/button_text_size" />
 
         <Button
@@ -183,6 +191,7 @@
             android:layout_gravity="fill"
             android:layout_margin="@dimen/button_margin"
             android:text="@string/_0"
+            android:textStyle="bold"
             android:textSize="@dimen/button_text_size" />
 
         <Button
@@ -191,6 +200,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/button_margin"
             android:text="@string/_dot"
+            android:textStyle="bold"
             android:textSize="@dimen/button_text_size" />
 
         <Button
@@ -199,6 +209,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/button_margin"
             android:text="@string/_equals"
+            android:textStyle="bold"
             android:textSize="@dimen/button_text_size" />
     </GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
