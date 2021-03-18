@@ -31,93 +31,93 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_clear_all"
             style="@style/ButtonCalc"
             android:layout_column="1"
             android:text="@string/_clear_all" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_clear_operand"
             style="@style/ButtonCalc"
             android:text="@string/_clear_operand" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_division"
             style="@style/ButtonCalc"
             android:text="@string/_division" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_7"
             style="@style/ButtonCalc"
             android:text="@string/_7" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_8"
             style="@style/ButtonCalc"
             android:text="@string/_8" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_9"
             style="@style/ButtonCalc"
             android:text="@string/_9" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_multiply"
             style="@style/ButtonCalc"
             android:text="@string/_multiply" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_4"
             style="@style/ButtonCalc"
             android:text="@string/_4" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_5"
             style="@style/ButtonCalc"
             android:text="@string/_5" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_6"
             style="@style/ButtonCalc"
             android:text="@string/_6" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_substract"
             style="@style/ButtonCalc"
             android:text="@string/_decrement" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_1"
             style="@style/ButtonCalc"
             android:text="@string/_1" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_2"
             style="@style/ButtonCalc"
             android:text="@string/_2" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_3"
             style="@style/ButtonCalc"
             android:text="@string/_3" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_add"
             style="@style/ButtonCalc"
             android:text="@string/_increment" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_0"
             style="@style/ButtonCalc.Zero"
             android:text="@string/_0" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_dot"
             style="@style/ButtonCalc"
             android:text="@string/_dot" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_equals"
             style="@style/ButtonCalc"
             android:text="@string/_equals" />
