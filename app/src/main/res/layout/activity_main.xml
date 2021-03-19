@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/layoutBackground"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/layoutBackground">
 
     <TextView
         android:id="@+id/status_textview"
@@ -122,4 +122,13 @@
             style="@style/ButtonCalc"
             android:text="@string/_equals" />
     </GridLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_choose_theme"
+        style="@style/ButtonChooseTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/grid_container" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

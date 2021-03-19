@@ -34,4 +34,11 @@
         <item name="android:text"></item>
         <item name="android:textSize">@dimen/status_textview_text_size</item>
     </style>
+    <style name="ButtonChooseTheme">
+        <item name="android:text">@string/choose_theme</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/operand_textview_margin</item>
+        <item name="android:layout_marginEnd">@dimen/operand_textview_margin</item>
+    </style>
 </resources>

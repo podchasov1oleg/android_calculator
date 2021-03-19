@@ -1,4 +1,4 @@
-package com.example.calculator_app;
+package com.example.calculator_app.application;
 
 public enum Operation {
     ADDITON("add", "+"),

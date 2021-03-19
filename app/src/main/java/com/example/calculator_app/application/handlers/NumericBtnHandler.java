@@ -1,11 +1,11 @@
-package com.example.calculator_app.handlers;
+package com.example.calculator_app.application.handlers;
 
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.calculator_app.MainActivity;
-import com.example.calculator_app.Operand;
+import com.example.calculator_app.presentation.MainActivity;
+import com.example.calculator_app.application.Operand;
 
 public class NumericBtnHandler implements View.OnClickListener {
 

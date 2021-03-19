@@ -1,6 +1,5 @@
-package com.example.calculator_app;
+package com.example.calculator_app.presentation;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.GridLayout;
@@ -8,12 +7,17 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.calculator_app.handlers.ClearAllBtnHandler;
-import com.example.calculator_app.handlers.ClearOperandBtnHandler;
-import com.example.calculator_app.handlers.DotBtnHandler;
-import com.example.calculator_app.handlers.NumericBtnHandler;
-import com.example.calculator_app.handlers.OperatorBtnHandler;
-import com.example.calculator_app.handlers.ResultBtnHandler;
+import com.example.calculator_app.R;
+import com.example.calculator_app.application.ActiveOperand;
+import com.example.calculator_app.application.Operand;
+import com.example.calculator_app.application.Operation;
+import com.example.calculator_app.application.Operator;
+import com.example.calculator_app.application.handlers.ClearAllBtnHandler;
+import com.example.calculator_app.application.handlers.ClearOperandBtnHandler;
+import com.example.calculator_app.application.handlers.DotBtnHandler;
+import com.example.calculator_app.application.handlers.NumericBtnHandler;
+import com.example.calculator_app.application.handlers.OperatorBtnHandler;
+import com.example.calculator_app.application.handlers.ResultBtnHandler;
 
 public class MainActivity extends AppCompatActivity {
 

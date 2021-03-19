@@ -1,10 +1,10 @@
-package com.example.calculator_app.handlers;
+package com.example.calculator_app.application.handlers;
 
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.calculator_app.MainActivity;
-import com.example.calculator_app.Operation;
+import com.example.calculator_app.presentation.MainActivity;
+import com.example.calculator_app.application.Operation;
 
 public class OperatorBtnHandler implements View.OnClickListener {
 
