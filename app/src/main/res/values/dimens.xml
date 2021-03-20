@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="button_text">40sp</dimen>
+    <dimen name="button_text_size">24sp</dimen>
+    <dimen name="theme_heading_text_size">20sp</dimen>
+    <dimen name="button_margin">2dp</dimen>
+    <dimen name="operand_textview_margin">22dp</dimen>
+    <dimen name="operand_textview_text_size">36sp</dimen>
+    <dimen name="status_textview_text_size">24sp</dimen>
 </resources>

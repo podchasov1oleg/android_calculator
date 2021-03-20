@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CalcGridLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:columnCount">4</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="ButtonCalc">
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ButtonCalc.Zero">
+        <item name="android:layout_columnSpan">2</item>
+        <item name="android:layout_gravity">fill</item>
+    </style>
+    <style name="OperandTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/operand_textview_margin</item>
+        <item name="android:layout_marginEnd">@dimen/operand_textview_margin</item>
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">@dimen/operand_textview_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/_0</item>
+<!--        <item name="android:textColor">@color/design_default_color_primary</item>-->
+    </style>
+    <style name="StatusTextView" parent="OperandTextView">
+        <item name="android:textStyle">normal</item>
+        <item name="android:text"></item>
+        <item name="android:textSize">@dimen/status_textview_text_size</item>
+    </style>
+    <style name="ButtonChooseTheme">
+        <item name="android:text">@string/choose_theme</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/operand_textview_margin</item>
+        <item name="android:layout_marginEnd">@dimen/operand_textview_margin</item>
+    </style>
+    <style name="ThemeActivityHeading">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/theme_activity_heading</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/theme_heading_text_size</item>
+        <item name="android:layout_marginBottom">24dp</item>
+    </style>
+</resources>
