@@ -1,10 +1,13 @@
 package com.example.calculator_app.presentation;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.GridLayout;
 import android.widget.TextView;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.calculator_app.R;
@@ -12,6 +15,8 @@ import com.example.calculator_app.application.ActiveOperand;
 import com.example.calculator_app.application.Operand;
 import com.example.calculator_app.application.Operation;
 import com.example.calculator_app.application.Operator;
+import com.example.calculator_app.application.ThemeProvider;
+import com.example.calculator_app.application.handlers.ChooseThemeBtnHandler;
 import com.example.calculator_app.application.handlers.ClearAllBtnHandler;
 import com.example.calculator_app.application.handlers.ClearOperandBtnHandler;
 import com.example.calculator_app.application.handlers.DotBtnHandler;
@@ -29,8 +34,13 @@ public class MainActivity extends AppCompatActivity {
     public static Operator lastOperator;
     public static Operator operator;
 
+    private final ThemeProvider themeProvider = ThemeProvider.INSTANCE;
+    public static final int LOGIN_REQUEST = 3;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(themeProvider.isDarkTheme() ? R.style.Theme_Calculator_app_Night : R.style.Theme_Calculator_app);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         GridLayout gridLayout = findViewById(R.id.grid_container);
@@ -88,6 +98,15 @@ public class MainActivity extends AppCompatActivity {
 
         Button clearOperandBtn = findViewById(R.id.button_clear_operand);
         clearOperandBtn.setOnClickListener(new ClearOperandBtnHandler(operandText));
+
+        Button chooseThemeBtn = findViewById(R.id.button_choose_theme);
+        chooseThemeBtn.setOnClickListener(new ChooseThemeBtnHandler(this));
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        this.recreate();
     }
 
     public static void clearAll() {

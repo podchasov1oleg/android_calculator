@@ -22,4 +22,8 @@
     <string name="_equals">=</string>
     <string name="_operand_placeholder">0</string>
     <string name="choose_theme">Выбрать тему приложения</string>
+    <string name="radio_light">Светлая</string>
+    <string name="radio_dark">Темная</string>
+    <string name="theme_activity_heading">Пожалуйста, выберите тему</string>
+    <string name="choose_theme_button">Выбрать</string>
 </resources>
